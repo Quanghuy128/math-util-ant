@@ -196,6 +196,8 @@ git init // khởi động folder chúa code thành kho local
 git add <files>
 git add * // except file has .
 git add . // all
+
+
 */
 
 
