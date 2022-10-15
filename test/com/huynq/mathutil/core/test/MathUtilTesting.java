@@ -30,7 +30,7 @@ public class MathUtilTesting {
         Assert.assertEquals(1, MathUtil.getFactotial(1));
 
         //Case #3: n = 5 -> getFactotial(5) -> expected : 120
-        Assert.assertEquals(12, MathUtil.getFactotial(5));
+        Assert.assertEquals(120, MathUtil.getFactotial(5));
 
     }
 

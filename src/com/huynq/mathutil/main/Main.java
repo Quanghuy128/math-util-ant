@@ -21,14 +21,11 @@ public class Main {
         //Case #3: n=5 -> getFactotial(5) -> expected : 120
         System.out.println("Result(5): " + MathUtil.getFactotial(5) + "| expected: 120");
         java.util.concurrent.TimeUnit.SECONDS.sleep(1);
-        try {
             //Case #4: n=-5 -> getFactotial(-5) -> expected : exception
             System.out.print("Result(-5): | expected: ");
             MathUtil.getFactotial(-5);
 
-        } catch (IllegalArgumentException ex) {
-            System.err.println("Invalid!!! N must be > 0 and < 20");
-        }
+        
         java.util.concurrent.TimeUnit.SECONDS.sleep(1);
         try {
             //Case #5: n=21 -> getFactotial(21) -> expected : exception
